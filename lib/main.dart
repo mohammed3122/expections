@@ -13,9 +13,11 @@ void main() {
 
     num z = n1 + n2;
     print('#[Sum is : $z]');
-    // } on FormatException { ==> in case i knew type of exception
+    // } on FormatException { ==> in  this case i knew type of exception.
     //   print('this is a format exception');
   } catch (e) {
+    //////////// ==>  this case to receive (any) expections.
+
     print(e);
   }
 }
